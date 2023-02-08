@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding:0 ;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+header{
+  background-color: white;
+}
+
+.logo{
+  margin-top: 5px;
+  position: absolute;
+  margin-right: 30px;
+
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+.first{
+  background-image: url(../images/udemy.png);
+  height: 450px;
+  background-repeat: no-repeat;
+}
+.inner{
+  background-color: white;
+margin-top: 150px;
+width: 450px;
+height: 150px;
+margin-left: 100px;
+padding: 20px 0 20px 30px;
+}
+span{
+  margin-left: 20px;
+  font-size: 20px;
+}
+.dscrip{
+  margin-left: 20px;
+}
+.courses{
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.courses-box{
+  border: 1px solid gray;
+  padding-top: 20px;
+  margin-left: 20px;
+  padding-left: 30px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.cards{
+  width: 220px;
+}
+a{
+  margin-left: 100px;
+  padding-top: 50px;
+}
+li input{
+  height: 40px;
+  width: 250px;
+  border-radius: 30px;
+}
+
+.cat{
+  padding-left: 30px;
+}
+li button{
+  padding: 5px;
+background-color: black;
+color: #ffff
+}
+.footer-entry{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
